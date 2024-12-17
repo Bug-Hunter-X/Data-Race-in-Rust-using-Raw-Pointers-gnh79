@@ -1,0 +1,1 @@
+This repository demonstrates a potential data race in Rust when using raw pointers to modify a vector's contents without proper synchronization. The `bug.rs` file contains the buggy code, and `bugSolution.rs` provides a solution illustrating safe memory manipulation using Rust's ownership and borrowing system.
